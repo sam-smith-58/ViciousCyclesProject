@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<a href="index.html">
+    <img src="images/vicious-cycles-logo.png" alt="vicious cycles" class="vc-logo">
+</a>
+<br> <br> <br> <br> <br> <br> 
+<!-- nav bar begins -->
+<nav> 
+    <div class="drop-down">
+        <button class="drop-button">Products</button>
+        <div class="drop-down-items">
+                <a href="motorcycles.html">Motorcycles</a>
+                <a href="accessories.html">Accessories</a>
+        </div>   
+    </div>
+
+    <a href="custom-builds.html"
+    target="_self"
+    class="nav-bar"> 
+    Custom Builds </a> 
+
+  <a 
+    href="classes.html"
+    target="_self"
+    class="nav-bar"> 
+    Classes </a>
+
+ <a 
+    href="contact-form.html"
+    target="_self"
+    class="nav-bar"> 
+    Contact Us </a> 
+</nav>
+<br> <br> <br>
+<!-- nav bar ends -->
+<body>
+    <!-- form for email subscription -->
+    <form>
+        <p> We will do our best to respond to you within 24 hours. Thank you for your time and patience.</p>
+        <br>
+        <!-- first name field -->
+        <label for="first-name"> First Name</label>
+        <input type="text" name="first-name" id="first-name"> <br> <br>
+        <!-- last name field -->
+        <label for="last-name"> Last Name</label>
+        <input type="text" name="last-name" id="last-name"> <br> <br>
+         <!-- email field -->
+         <label for="email"> Email </label> 
+         <input type="email" name="email" id="email"> <br> <br>
+         <!-- dropdown menu -->
+         <p>Choose a Vicious Cycles location</p>
+         <select size="1">
+            <option value="Raleigh"> Raleigh </option>
+            <option value="Durham"> Durham </option>
+            <option value="Cary"> Cary </option>
+         </select>
+         <br><br>
+         <!-- checkboxes -->
+         <fieldset id="type-of-notif">
+            <input type="checkbox" name="new-motorcycles" id="new-motorcycles">
+            new motorcycles<br> <br>
+            <input type="checkbox" name="accessories" id="accessories">
+            driving classes<br> <br>
+            <input type="checkbox" name="custom" id="custom">
+            custom motorcycles <br> <br>
+            <legend> What are you contacting us about? <br> <br></legend> 
+         </fieldset>
+         <br> <br>
+         <!-- radio buttons -->
+         <fieldset id="sales-options">
+            <input type="radio" name="sales-options" id="yes" value="yes">
+            yes <br> <br>
+            <input type="radio" name="sales-options" id="no" value="no">
+            no <br> <br>
+            <legend> Would you like to be updated about sales? <br> <br></legend>
+         </fieldset>
+         <br><br>
+         <!-- text area -->
+         <p>List any questions or concerns that you have.</p>
+         <textarea id="why" name="why"></textarea>
+         <br><br>
+         <!-- submit button -->
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
